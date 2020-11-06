@@ -99,9 +99,12 @@ def if_is_family_name(name):
 
 if __name__ == '__main__':
     while True:
-        param = input('请输入一个姓氏：\n')
+        param = input('请输入一个姓氏：(输入bye离开)\n')
+        if param == 'bye':
+            break
         response = if_is_family_name(param)
         print(response)
+    print('江湖再见')
 
 # 以下对输入的姓氏进行记录
 
@@ -110,4 +113,16 @@ if __name__ == '__main__':
 # 贾
 # 史
 # 王
-
+# 杨
+# 廉
+# 曹
+# 李
+# 张
+# 时
+# 管
+# 周
+# 杜
+# 宋
+# 赵
+# 郑
+# 郭
